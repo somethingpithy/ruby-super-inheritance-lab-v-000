@@ -1,12 +1,11 @@
-class Student < Student
+class Student
 
   def hello
-    super
     puts "Hey there! I'm so excited to learn stuff.\n"
   end
 
   def raise_hand
-    super
+    puts "Pick me!\n"
   end
 
 end
